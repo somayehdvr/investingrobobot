@@ -1,3 +1,6 @@
+nltk.download()
+warnings.download()
+
 import nltk
 import warnings
 warnings.filterwarnings("ignore")
