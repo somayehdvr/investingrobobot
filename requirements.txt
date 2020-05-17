@@ -2,7 +2,7 @@ django
 gunicorn
 django-heroku
 corpora
-nltk
+NLTK corpora
 warnings
 numpy
 random
