@@ -1,6 +1,7 @@
 django
 gunicorn
 django-heroku
+corpora
 nltk=3.4
 warnings
 numpy
