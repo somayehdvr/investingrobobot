@@ -1,9 +1,9 @@
 nltk
 warnings
-numpy as np
+numpy
 random
 string
-wikipedia as wk
+wikipedia
 collections
 urllib3
 json
