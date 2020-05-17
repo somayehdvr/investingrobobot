@@ -1,72 +1,21 @@
-nltk.download()
-warnings.download()
-
-import nltk
-import warnings
-warnings.filterwarnings("ignore")
-
-import numpy as np
-import random
-import string # to process standard python strings
-
-import wikipedia as wk
-from collections import defaultdict
-
-    #API Reader
-import urllib3
-from urllib3 import PoolManager
-import json
-import requests
-
-    #stock
-    #from alpha_vantage.timeseries import TimeSeries
-from datetime import datetime
-
-    #Table Reader
-import operator
-import csv
-
-
-from telegram.ext import Updater, InlineQueryHandler, CommandHandler, MessageHandler, Filters
-import requests
-import re
-import logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                     level=logging.INFO)
-from telegram import InlineQueryResultArticle, InputTextMessageContent
-
-
-
-from telegram.ext import Updater
-
-
-#Chatbot
-    import nltk
-    import warnings
-    warnings.filterwarnings("ignore")
-
-    import numpy as np
-    import random
-    import string # to process standard python strings
-
-    import wikipedia as wk
-    from collections import defaultdict
-
-    #API Reader
-    import urllib3
-    from urllib3 import PoolManager
-    import json
-    import requests
-
-    #stock
-    #from alpha_vantage.timeseries import TimeSeries
-    from datetime import datetime
-
-    #Table Reader
-    import operator
-    import csv
-
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-from sklearn.metrics.pairwise import cosine_similarity
+nltk
+warnings
+numpy as np
+random
+string
+wikipedia as wk
+collections
+urllib3
+json
+requests
+datetime
+operator
+csv
+telegram.ext
+requests
+re
+logging
+telegram
+alpha_vantage.timeseries
+sklearn.feature_extraction.text
+sklearn.metrics.pairwise
