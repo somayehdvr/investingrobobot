@@ -1,7 +1,7 @@
 django
 gunicorn
 django-heroku
-nltk
+nltk>=3.2,<4.0
 warnings
 numpy
 random
